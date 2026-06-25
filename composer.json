@@ -1,0 +1,25 @@
+{
+    "name": "Ace-8256/amazon-sp-api-php",
+    "description": "XJC fork of clousale amazon sp api php",
+    "type": "library",
+    "keywords": [
+        "api",
+        "amazon",
+        "selling-partner",
+        "sp-api",
+        "Ace-8256"
+    ],
+    "require": {
+        "php": ">=7.3",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.2|^7.0"
+    },
+    "autoload": {
+        "psr-4": { "ClouSale\\AmazonSellingPartnerAPI\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "ClouSale\\AmazonSellingPartnerAPI\\" : "test/" }
+    }
+}
