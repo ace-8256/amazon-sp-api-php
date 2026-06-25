@@ -1,5 +1,5 @@
 {
-    "name": "Ace-8256/amazon-sp-api-php",
+    "name": "ace-8256/amazon-sp-api-php",
     "description": "XJC fork of clousale amazon sp api php",
     "type": "library",
     "keywords": [
@@ -7,7 +7,7 @@
         "amazon",
         "selling-partner",
         "sp-api",
-        "Ace-8256"
+        "ace-8256"
     ],
     "require": {
         "php": ">=7.3",
